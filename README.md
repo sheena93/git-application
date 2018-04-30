@@ -4,9 +4,9 @@ Steps to run the code:
 2. cd git-application
 3. npm install
 
-  use this link 
+  use this link
  https://github.com/settings/tokens/new
- to generate tokens
- place in App.js line 15 for variable oauth
+ to generate token and
+ place the token in App.js line 15 for variable oauth
 
 4. npm start
