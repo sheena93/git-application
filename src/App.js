@@ -9,14 +9,12 @@ import RaisedButton from 'material-ui/RaisedButton';
 import ActionAndroid from 'material-ui/svg-icons/action/android';
 import FontIcon from 'material-ui/FontIcon';
 import usersListInfo from './response';
-
-// use this link 
-// https://github.com/settings/tokens/new
-const oauth= "generate-auth-token";
-
 import {styles,paperstyle,cardstyle} from './constants';
 import CircularProgress from 'material-ui/CircularProgress';
 
+// use this link
+// https://github.com/settings/tokens/new
+const oauth= "generate-auth-token";
 
 // TODO For loading animation
 const CircularProgressSection = ({size,thickness}) => (
